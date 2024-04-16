@@ -1,20 +1,23 @@
-¡Genial! Has creado un proyecto Vite desde cero y lo has puesto en marcha. Aquí está el resumen de los pasos:
+¡Entendido! Aquí tienes la mejora con la adición de la creación de la carpeta en Windows y la apertura de Visual Studio Code:
 
-1. Crear la carpeta para el proyecto, abre VS code en esta carpeta, sigudo de esto instala con...:
+1. **Crear la carpeta para el proyecto, abrir VS Code y crear el proyecto:**
 
 ```bash
+mkdir nombre_de_tu_carpeta
+cd nombre_de_tu_carpeta
+code .  # Este comando abre Visual Studio Code en la carpeta actual
 npm create vite@latest .
 ```
 
 Selecciona las opciones deseadas cuando te lo solicite.
 
-2. Instalar las dependencias del proyecto:
+2. **Instalar las dependencias del proyecto:**
 
 ```bash
 npm install
 ```
 
-3. Iniciar el servidor de desarrollo:
+3. **Iniciar el servidor de desarrollo:**
 
 ```bash
 npm run dev
